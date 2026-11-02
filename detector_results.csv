@@ -1,0 +1,31 @@
+detector,TP,FP,TN,FN,precision,recall,F1,FPR
+v2 rules (put-count threshold),149,72,168,51,0.674,0.745,0.708,0.3
+v3 rules (pipeline-aware),160,0,240,40,1.0,0.8,0.889,0.0
+
+scenario,type,v2_flag_rate,v3_flag_rate
+idle,benign,0.0,0.0
+large upload,benign,0.8,0.0
+restore,benign,0.0,0.0
+download + re-upload,benign,0.0,0.0
+admin cleanup (1-4 deletes),benign,0.0,0.0
+admin enables versioning,benign,1.0,0.0
+bulk delete,attack,1.0,1.0
+in-place encryption,attack,0.725,1.0
+copy-encrypt-delete,attack,1.0,1.0
+config tampering,attack,1.0,1.0
+slow-and-low deletes (evasion),attack,0.0,0.0
+
+delete_threshold,precision,recall,F1
+0,0.833,1.0,0.909
+1,0.853,0.96,0.904
+2,0.885,0.925,0.905
+3,0.925,0.865,0.894
+4,1.0,0.8,0.889
+5,1.0,0.8,0.889
+6,1.0,0.79,0.883
+7,1.0,0.78,0.876
+8,1.0,0.775,0.873
+9,1.0,0.77,0.87
+10,1.0,0.77,0.87
+11,1.0,0.77,0.87
+12,1.0,0.77,0.87

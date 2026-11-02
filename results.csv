@@ -1,0 +1,49 @@
+dataset,dup_pct,scheme,logical_bytes,stored_bytes,dedup_ratio,space_saved_pct,enc_s,enc_MBps,dec_MBps
+text,0,A. No dedup (encrypt all),786430,787360,0.999,-0.1,0.0,,
+text,0,B. Plaintext dedup (insecure),786430,786430,1.0,0.0,0.001,,
+text,0,C. Convergent + AES-128,786430,787360,0.999,-0.1,2.011,0.391,0.388
+text,0,D. Convergent + SPECK-128 (proposed),786430,787360,0.999,-0.1,1.087,0.723,0.714
+text,25,A. No dedup (encrypt all),786430,787360,0.999,-0.1,0.0,,
+text,25,B. Plaintext dedup (insecure),786430,589823,1.333,25.0,0.001,,
+text,25,C. Convergent + AES-128,786430,590496,1.332,24.9,1.957,0.402,0.436
+text,25,D. Convergent + SPECK-128 (proposed),786430,590496,1.332,24.9,1.122,0.701,0.715
+text,50,A. No dedup (encrypt all),786432,787200,0.999,-0.1,0.0,,
+text,50,B. Plaintext dedup (insecure),786432,393216,2.0,50.0,0.001,,
+text,50,C. Convergent + AES-128,786432,393632,1.998,49.9,2.004,0.392,0.43
+text,50,D. Convergent + SPECK-128 (proposed),786432,393632,1.998,49.9,0.983,0.8,0.763
+text,75,A. No dedup (encrypt all),786432,787184,0.999,-0.1,0.0,,
+text,75,B. Plaintext dedup (insecure),786432,196608,4.0,75.0,0.001,,
+text,75,C. Convergent + AES-128,786432,196800,3.996,75.0,1.913,0.411,0.438
+text,75,D. Convergent + SPECK-128 (proposed),786432,196800,3.996,75.0,1.038,0.757,0.766
+binary,0,A. No dedup (encrypt all),786432,787504,0.999,-0.1,0.0,,
+binary,0,B. Plaintext dedup (insecure),786432,786432,1.0,0.0,0.001,,
+binary,0,C. Convergent + AES-128,786432,787504,0.999,-0.1,2.014,0.39,0.439
+binary,0,D. Convergent + SPECK-128 (proposed),786432,787504,0.999,-0.1,0.949,0.828,0.749
+binary,25,A. No dedup (encrypt all),786432,787520,0.999,-0.1,0.0,,
+binary,25,B. Plaintext dedup (insecure),786432,589824,1.333,25.0,0.001,,
+binary,25,C. Convergent + AES-128,786432,590608,1.332,24.9,2.046,0.384,0.406
+binary,25,D. Convergent + SPECK-128 (proposed),786432,590608,1.332,24.9,1.055,0.746,0.654
+binary,50,A. No dedup (encrypt all),786432,787472,0.999,-0.1,0.0,,
+binary,50,B. Plaintext dedup (insecure),786432,393216,2.0,50.0,0.001,,
+binary,50,C. Convergent + AES-128,786432,393728,1.997,49.9,2.317,0.339,0.31
+binary,50,D. Convergent + SPECK-128 (proposed),786432,393728,1.997,49.9,1.05,0.749,0.681
+binary,75,A. No dedup (encrypt all),786432,787328,0.999,-0.1,0.0,,
+binary,75,B. Plaintext dedup (insecure),786432,196608,4.0,75.0,0.001,,
+binary,75,C. Convergent + AES-128,786432,196832,3.995,75.0,2.582,0.305,0.468
+binary,75,D. Convergent + SPECK-128 (proposed),786432,196832,3.995,75.0,1.112,0.707,0.65
+mixed,0,A. No dedup (encrypt all),786432,787472,0.999,-0.1,0.0,,
+mixed,0,B. Plaintext dedup (insecure),786432,786432,1.0,0.0,0.001,,
+mixed,0,C. Convergent + AES-128,786432,787472,0.999,-0.1,2.043,0.385,0.402
+mixed,0,D. Convergent + SPECK-128 (proposed),786432,787472,0.999,-0.1,1.122,0.701,0.725
+mixed,25,A. No dedup (encrypt all),786432,787456,0.999,-0.1,0.0,,
+mixed,25,B. Plaintext dedup (insecure),786432,589824,1.333,25.0,0.001,,
+mixed,25,C. Convergent + AES-128,786432,590592,1.332,24.9,2.433,0.323,0.46
+mixed,25,D. Convergent + SPECK-128 (proposed),786432,590592,1.332,24.9,1.194,0.659,0.757
+mixed,50,A. No dedup (encrypt all),786432,787408,0.999,-0.1,0.0,,
+mixed,50,B. Plaintext dedup (insecure),786432,393216,2.0,50.0,0.001,,
+mixed,50,C. Convergent + AES-128,786432,393728,1.997,49.9,1.856,0.424,0.462
+mixed,50,D. Convergent + SPECK-128 (proposed),786432,393728,1.997,49.9,0.909,0.865,0.803
+mixed,75,A. No dedup (encrypt all),786432,787504,0.999,-0.1,0.0,,
+mixed,75,B. Plaintext dedup (insecure),786432,196608,4.0,75.0,0.001,,
+mixed,75,C. Convergent + AES-128,786432,196864,3.995,75.0,2.276,0.345,0.323
+mixed,75,D. Convergent + SPECK-128 (proposed),786432,196864,3.995,75.0,0.905,0.869,0.836

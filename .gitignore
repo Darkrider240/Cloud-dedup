@@ -1,0 +1,20 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+
+# Temporary / Scratch files
+scratch/
+*.tmp
+trigger_test.txt
+kms_test.txt
+test_word.ps1
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
